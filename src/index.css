@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html {
+  box-sizing: border-box;
+  /* background: url('https://source.unsplash.com/NFs6dRTBgaM/2000x2000') fixed; */
+  background-size: cover;
+  background-color: #fafa3f;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.form__field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 60%;
+  min-width: 300px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.btn {
+  background-color: blue;
+  width: 41%;
+}
+
+.btn__field {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  padding: 20px;
+  position: absolute;
+  height: 100vh;
+}
+
+.form__container {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.chat__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.chats {
+  width: 80%;
+  min-width: 300px;
+}
+
+p {
+  padding: 4px;
+  border-radius: 10px;
+  word-wrap: break-word;
+  
+}
+.chat__right {
+  background-color: rgb(126, 118, 216);
+  color: white;
+  width: inherit;
+  max-width: 60%;
+  margin-left: auto;
+  
+}
+
+.chat__left {
+  background-color: #64b5f6;
+  color: white;
+  width: auto;
+  max-width: 60%;
+  height: initial;
+}
